@@ -4,63 +4,63 @@
 }
 
 #main-container{
-    width: 325px;
     margin: 87px auto 40px;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
 }
 #Vision{
     width: 100%;
-    height: 440px;
     padding: 48px;
     height: 300px;
-    background-color: pink;
+    background-color: lightpink;
 }
 #Mision{
     width: 100%;
-    height: 440px;
+    padding: 48px;
+    height: 300px;
+    background-color: pink;
+}
+#Valores{
+    width: 100%;
     padding: 48px;
     height: 300px;
     background-color: violet;
 }
-#Valores{
-    width: 100%;
-    height: 440px;
-    padding: 48px;
-    height: 300px;
-    background-color: purple;
-}
 #Diagnostico{
     width: 100%;
-    height: 440px;
+    padding: 48px;
+    height: 400px;
+    background-color: lightpink;
+}
+#Presupuesto{
+    width: 100%;
     padding: 48px;
     height: 400px;
     background-color: pink;
 }
-#Presupuesto{
+#Construccion{
     width: 100%;
-    height: 440px;
+    padding: 48px;
+    height: 400px;
+    background-color: rgb(199, 2, 199);
+}
+#Reparacion{
+    width: 100%;
     padding: 48px;
     height: 400px;
     background-color: violet;
 }
-#Reparacion{
-    width: 100%;
-    height: 440px;
-    padding: 48px;
-    height: 400px;
-    background-color: purple;
-}
 #Formulario{
     width: 100%;
-    height: 440px;
     padding: 48px;
     height: 500px;
     background-color: pink;
 }
 #Mapa{
     width: 100%;
-    height: 440px;
     padding: 48px;
     height: 500px;
     background-color: violet;
@@ -71,6 +71,13 @@ img{
 #h2Servicios{
     color: var(--veryLightGray);
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#h2General{
+    color: var(--veryLightGray);
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 2.4em;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -79,6 +86,11 @@ p{
     color: var(--transparentWhite);
     line-height: 25px;
     margin-bottom: 25px;
+    
+}
+footer{
+    background-color: rgb(253, 146, 217);
+    height: 80px;   
 }
 button{
     width: 148px;
@@ -89,7 +101,10 @@ button{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
 }
-
+label{
+    display: inline-block;
+    width: 100px;
+}
 #botones{
     color: black;
     font-weight: bold;
@@ -97,15 +112,4 @@ button{
 button:hover{
     cursor: pointer;
     border: 2px solid black;  
-}
-
-@media (min-width: 944px){
-    #main-container{
-        margin-top: 10px;
-        display: flex;
-        width: 100%;
-    }
-    p{
-        margin-bottom: 30px;
-    }
 }
